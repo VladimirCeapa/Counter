@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(14, 137, 219);
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    box-shadow: 10px 5px 5px rgba(46, 45, 45, 0.534);
+   
+}
+.content{
+    position: absolute;
+    margin: 100px 140px;
+    width: 200px;
+}
+.count{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #0b75ee;
+}
+#number{
+    font-size: 70px;
+}
+.btns{
+    position: absolute;
+display: flex;
+top:370px;
+margin-left: 90px;
+   
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+#btn1{
+    background-color: rgb(212, 193, 18);
+  
+   
+    
+}
+#btn2{
+    background-color: red;
+  
+    margin-left: 10px;
+}
+#btn3{
+    background-color: rgb(11, 221, 21);
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+}
